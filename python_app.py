@@ -2,11 +2,12 @@
 # generate app password
 # create a function to send the email
 from email.message import EmailMessage #Specifies the sender, password, receiver
+from app_info import email_psk
 import ssl
 import smtplib
 
 email_sender = 'SidharthPrakasan23@gmail.com'
-email_psk = 'elcgewdezqlsmwso'
+email_psk = email_psk
 
 email_receiver = 'nohol73687@niback.com'
 
